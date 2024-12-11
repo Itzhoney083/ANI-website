@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/pf.css">
+    <link rel="shortcut icon" href="boy.ico.ico" type="image/x-icon">
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                // $("#new").hide();
+                $("#new").show("slow");
+                $("#new2").hide();
+                $("#new3").hide();
+                $("#new4").hide();
+                $("#new5").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#btn").mousedown(function(){
+                $("#btn").css("color","black");
+                $("#btn1").css("color","#d1d1d1");
+                $("#btn2").css("color"," #d1d1d1");
+                $("#btn3").css("color"," #d1d1d1");
+                $("#btn4").css("color"," #d1d1d1");
+            });
+            $("#btn1").mousedown(function(){
+                $("#btn1").css("color","black");
+                $("#btn2").css("color"," #d1d1d1");
+                $("#btn3").css("color"," #d1d1d1");
+                $("#btn4").css("color"," #d1d1d1");
+                $("#btn").css("color"," #d1d1d1");
+            });
+            $("#btn2").mousedown(function(){
+                $("#btn2").css("color","black");
+                $("#btn1").css("color","#d1d1d1");
+                $("#btn3").css("color"," #d1d1d1");
+                $("#btn4").css("color"," #d1d1d1");
+                $("#btn").css("color"," #d1d1d1");
+            });
+            $("#btn3").mousedown(function(){
+                $("#btn3").css("color","black");
+                $("#btn1").css("color","#d1d1d1");
+                $("#btn2").css("color"," #d1d1d1");
+                $("#btn4").css("color"," #d1d1d1");
+                $("#btn").css("color"," #d1d1d1");
+            });
+            $("#btn4").mousedown(function(){
+                $("#btn4").css("color","black");
+                $("#btn1").css("color","#d1d1d1");
+                $("#btn2").css("color"," #d1d1d1");
+                $("#btn3").css("color"," #d1d1d1");
+                $("#btn").css("color"," #d1d1d1");
+            });
+        });
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#new").hide();
+                $("#new1").hide();
+                $("#new2").show("slow");
+                $("#new3").hide();
+                $("#new4").hide();
+                $("#new5").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#btn2").click(function(){
+                $("#new").hide();
+                $("#new3").show("slow");
+                $("#new2").hide();
+                $("#new1").hide();
+                $("#new4").hide();
+                $("#new5").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#btn3").click(function(){
+                $("#new").hide();
+                $("#new4").show("slow");
+                $("#new2").hide();
+                $("#new1").hide();
+                $("#new3").hide();
+                $("#new5").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#btn4").click(function(){
+                $("#new").hide();
+                $("#new5").show();
+                $("#new2").hide();
+                $("new1").hide();
+                $("#new4").hide();
+                $("#new3").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="layout" id="layout"></div>
+        <div class="menu">
+            <li><a href="portfolio.html" class="slide">Home</a></li>
+            <li><a href="applicant.html" class="slide">Applicant</a></li>
+            <li><a href="news.html" class="slide">News</a></li>
+            <li><a href="About us.html" class="slide">About Us</a></li>
+            <li><a href="help.html" class="slide">Help</a></li>
+        </div>
+        <div class="profile">
+            <img src="../img/dp1.jpg" alt="no" id="img1"><br>
+            <span id="name">
+                <center>web designer</center>
+                <center>Anonymous user</center>
+            </span>
+        </div>
+        <div class="info">
+            <div class="sideline">
+                <li><input type="button" value="Intro" id="btn"></li>
+                <li><input type="button" value="Design" id="btn1"></li>
+                <li><input type="button" value="About Me" id="btn2"></li>
+                <li><input type="button" value="Campaign" id="btn3"></li>
+                <li><input type="button" value="Social Media" id="btn4"></li>
+            </div>
+        </div>
+        <div class="lineinfo">
+            <div class="info-box">
+            <span id="new"><h1>Hey!</h1>
+            <center id="font">Welcome</center><img src="../img/paper-cup.png" style="height: 90px;">
+            <br><h3>have some drink</h3><br>
+            <p id="font" >
+                Now let's get to Business, and it's about us .<br>
+                we are a crazy bunch of people who are here to just scramble the world around with the craziest idea we have.
+                And you might be thinking how ? let me take you through 
+                <li>1.Craziest Idea</li>
+                <li>2.Design on paper</li>
+                <li>3.see through the errors </li>
+                <li>4.Make it possible</li>
+            </p>
+            </span>
+            <!-- <sapn id="new1" style="display: none;"><h1>Hell</h1></sapn> -->
+            <sapn id="new2" style="display: none;">
+            <div class="outercube cube">
+                <div class="innercube cube">
+                    <div class="innercube2 cube"></div>
+                </div>
+            </div>
+            <div class="text-box">
+                Glow
+            </div>
+            </sapn>
+            <sapn id="new3" style="display: none;">
+                <h4>Hi!,i'm</h4>
+                <h1 style="position:relative;left:40px;font-family: cursive;">Honey <br><div style="position:relative;left:80px;">choudhary</div></h1>
+            <img src="../img/luffy6.gif" id="gif">
+            <p id="speech">
+                I'm a<b> B.A. graduate</b> and currently a<b> web developer</b>.<br>
+                I like to do things which are more appealing to me rather then a boring work like fixing a website bug .<br>So this  leave us with the appealing part which is building an<b> UI interface</b> of an website with my own thoughts and i think that's the best thing of being a web devloper for me just being able to use your imagination to create any thing and make it possible.<br>
+                That's it thats all the information you will need about me.
+            </p>
+            </sapn>
+            <sapn id="new4" style="display: none;"><h1 style="font-family:monospace;position: relative;top: 60px;">Watch Anime!</h1><br>
+                <img src="../img/itachi.gif" id="gif2"><span style="font-family:monospace ;">
+             <h3>our moto is to make people watch anime as much as possible.</h3>
+             <p>you my friend should watch anime and here's why : </p>
+             <div id="list">
+                <li>It improve your decision capabilty</li>
+                <li>Anime shows you the <b>Dark & Light</b> site at the same time</li>
+                <li>Anime is a short form entertainment thing,it's easy to Watch</li>
+                <li>Anime is  frictional so it's potental is limitless</li>
+             </div>
+             <b>List goes on and on... </b><div id="animeback"><a href="https://www.anime-planet.com/anime/" style="color: black;text-decoration:none;font-size:x-large;display: block;">Anime</a></div>
+            </sapn>
+            <sapn id="new5" style="display: none;">
+            <a href="https://www.instagram.com/itzbrown_boy/?igshid=MTg0ZDhmNDA%3D"><img src="../img/instagram.png" id="insta"></a>
+            <a href="https://www.snapchat.com/add/itzbrownboy083?share_id=1zuDHr25xlg&locale=en-GB"><img src="../img/snapchat.png" id="snap"></a>
+            <a href="https://twitter.com/Cristiano"><img src="../img/twitter.png" id="twt"></a>
+            <a href="https://www.facebook.com/honey.choudhary083"><img src="../img/facebook.png" id="fb"></a>
+            </sapn>
+        </div></div>
+        <!-- <img src="luffytnx.gif" id="tnx">
+        <spa n id="thank">Work on progress.....</span> -->
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - HR Management System</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="index.html">HR Management</a></li>
+      </ul>
+    </nav>
+  
+
+  <div class="signin-container">
+    <h1>Sign In</h1>
+    <form id="signinForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Load the navbar dynamically
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+  </script>
+</body>
+</html>
